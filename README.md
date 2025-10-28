@@ -10,7 +10,9 @@ VITE_API_URL=ip_puerto_backend
 
 <details>
   <summary><b>Imagenes de la aplicacion</b></summary>
+
   ![Pantalla de inicio](./readme_images/home_page.png)
   ![Pantalla de peliculas](./readme_images/movie_tab.png)
   ![Pantalla de Reproduccion de peliculas](./readme_images/watch_page.png)
+
 </details>

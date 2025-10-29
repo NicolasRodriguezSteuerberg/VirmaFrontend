@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import WatchPage from './pages/Watch';
 import SeriePage from './pages/Serie';
+import WatchEpisodePage from './pages/WatchEpisodePage';
 
 const darkTheme = createTheme({
   palette: {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/watch/movie/:id' element={<WatchPage/>}/>
           <Route path='/serie/:id' element={<SeriePage/>}/>
+          <Route path='/watch/serie/:episodeId' element={<WatchEpisodePage/>}/>
         </Routes>
       </Router>
     </ThemeProvider>

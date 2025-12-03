@@ -27,7 +27,7 @@ function SerieContentComponent({seasons, onClick}: SerieContentComponentProps) {
                             gap: 2
                         }}>
                             {season.episodeList.map(episode => (
-                                <EpisodeContentComponent episode={episode} onClick={onClick}/>
+                                <EpisodeContentComponent key={episode.id} episode={episode} onClick={onClick}/>
                             ))}
                         </Box>
                     </AccordionDetails>

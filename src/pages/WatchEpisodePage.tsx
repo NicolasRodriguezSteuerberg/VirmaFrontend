@@ -41,6 +41,7 @@ export default function WatchEpisodePage() {
 
             <Box sx={{ width: '100%', maxWidth: 960 }}>
                 <ReactPlayer
+                    key={episodeId}
                     src={episode?.fileUrl}
                     controls
                     autoPlay
